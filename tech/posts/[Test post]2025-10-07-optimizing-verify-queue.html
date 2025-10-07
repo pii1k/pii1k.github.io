@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Optimizing a Crypto Verification Queue</title>
+  <link rel="stylesheet" href="/assets/style.css" />
+</head>
+<body>
+  <!-- header (same as others) -->
+  <header class="header">
+    <nav class="nav">
+      <a class="brand" href="/">Jeyoung’s Dev Log</a>
+      <div class="links">
+        <a href="/tech/">Tech</a><a href="/cs/">CS</a><a href="/ielts/">IELTS</a><a href="/life/">Life</a><a href="/about/">About</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main">
+    <h1>Optimizing a Crypto Verification Queue</h1>
+    <p class="lead">Notes from pushing toward 1300 msg/s in an embedded pipeline.</p>
+
+    <h2>Setup</h2>
+    <p>Hardware/SDK, enqueue period, timeout thresholds…</p>
+
+    <h2>Profiling</h2>
+    <p>Where cycles went: queueing vs. verification vs. callbacks.</p>
+
+    <h2>Fixes</h2>
+    <ul>
+      <li>Timeout sweeper & drained-queue logic</li>
+      <li>Batch verify & cache-friendly layouts</li>
+      <li>Lock contention reduction</li>
+    </ul>
+
+    <h2>Results</h2>
+    <p>Latency histograms and throughput before/after.</p>
+  </main>
+
+  <footer class="footer">© 2025 Jeyoung An — Built with ❤️ on GitHub Pages</footer>
+  <script src="/assets/script.js"></script>
+</body>
+</html>

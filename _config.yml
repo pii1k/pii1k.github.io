@@ -1,0 +1,13 @@
+title: "Jyan's Dev Log"
+description: "Let's get back from the beginning"
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+navbar:
+  - Home: /
+  - Tech Blog: /tech/
+  - CS Notes: /cs/
+  - IELTS Journey: /ielts/
+  - Life Log: /life/
+  - About: /about/
